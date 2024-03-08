@@ -1,0 +1,112 @@
+@import url("https://fonts.google.com/specimen/Protest+Riot?stroke=Sans+Serif");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Protest Riot', sans-serif;
+    background-image: linear-gradient(black,rgb(14, 14, 17));
+    color: wheat;
+    
+   
+}
+
+/* .mainbox .bgimg{ */
+    /* opacity:0.1; */
+   
+/* } */
+img{
+    width: 100%;
+    height: 100%;
+}
+.mainbox{
+    width: 100%;
+    height: 100%;
+   
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative; */
+    /* top: -600px; */
+   }
+.nav .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 20px; */
+    font-size: 20px;
+}
+.nav .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav .left h3{
+    font-weight: 200;
+    padding-left: 20px;
+}
+.nav .left h2{
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    left: 5px;
+}
+.nav .right h3{
+    font-weight: 200;
+    /* padding-left: 20px; */
+}
+.nav .right h2{
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    left: 5px;
+}
+.body{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.body .maincontent{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    
+    transform: translateY(100%);
+}
+.body .maincontent .content{
+    position: relative;
+    top: 55px;
+    font-size: 35px;
+    margin-left: 100px;
+    width: 44%;
+    line-height: 50px;
+   
+    font-weight: bold;
+}
+.body .maincontent .image{
+    width: 50%;
+    padding-top: 116px;
+    margin: 30px;
+    border-radius: 30px;
+}
+.slider{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
